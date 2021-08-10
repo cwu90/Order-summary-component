@@ -157,11 +157,20 @@ img {
   color: var(--active-text);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 427) {
   body {
     background-image: url(pattern-background-mobile.svg);
     background-color: var(--clr-first);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .product-plan p a {
+    font-size: 0.625rem;
+  }
+  .product-plan {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
   }
 }
